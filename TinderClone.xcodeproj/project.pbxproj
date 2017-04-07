@@ -14,6 +14,8 @@
 		466A42B11E96F7B9008DD3AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466A42AF1E96F7B9008DD3AF /* LaunchScreen.storyboard */; };
 		466A42BC1E96F7B9008DD3AF /* TinderCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A42BB1E96F7B9008DD3AF /* TinderCloneTests.swift */; };
 		466A42C71E96F7B9008DD3AF /* TinderCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A42C61E96F7B9008DD3AF /* TinderCloneUITests.swift */; };
+		466A42D51E96F863008DD3AF /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A42D41E96F863008DD3AF /* CardsViewController.swift */; };
+		466A42D71E9769E5008DD3AF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A42D61E9769E5008DD3AF /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		466A42C21E96F7B9008DD3AF /* TinderCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		466A42C61E96F7B9008DD3AF /* TinderCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneUITests.swift; sourceTree = "<group>"; };
 		466A42C81E96F7B9008DD3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466A42D41E96F863008DD3AF /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		466A42D61E9769E5008DD3AF /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				466A42AD1E96F7B9008DD3AF /* Assets.xcassets */,
 				466A42AF1E96F7B9008DD3AF /* LaunchScreen.storyboard */,
 				466A42B21E96F7B9008DD3AF /* Info.plist */,
+				466A42D41E96F863008DD3AF /* CardsViewController.swift */,
+				466A42D61E9769E5008DD3AF /* ProfileViewController.swift */,
 			);
 			path = TinderClone;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				466A42A91E96F7B9008DD3AF /* ViewController.swift in Sources */,
 				466A42A71E96F7B9008DD3AF /* AppDelegate.swift in Sources */,
+				466A42D71E9769E5008DD3AF /* ProfileViewController.swift in Sources */,
+				466A42D51E96F863008DD3AF /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
